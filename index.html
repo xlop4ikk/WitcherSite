@@ -1,0 +1,44 @@
+<!-- MAIN PAGE -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WitcherGuide</title>
+</head>
+<body>
+
+    <!-- Дождь -->
+    <div id="rain-container" class="rain-container">
+        <div class="drop">
+            <div class="stem"></div>
+            <div class="splash"></div>
+        </div>
+    </div>
+
+    <!-- Выбор языка -->
+    <section>
+        <select class="change-lang">
+            <option value="en">EN</option>
+            <option value="ru">RU</option>
+        </select> 
+    </section>
+
+    <!-- Логотип ведьмака -->
+    <p class="WitcherLogo"><img src="Pics/WitcherLogo.png" alt="PicError" class="WitcherLogoPNG"></p>
+
+    <!-- Кнопки для перехода -->
+    <div class="btn-group">
+        <form action="URL">
+            <input class="buttons" type="button" value="BESTIARY" onClick='location.href="https://witcher.fandom.com/wiki/The_Witcher_3_bestiary"'>
+            <input class="buttons" type="button" value="MAPS" onClick='location.href="mapchoice.html"'>
+            <input class="buttons" type="button" value="ALCHEMY" onClick='location.href=""'>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
